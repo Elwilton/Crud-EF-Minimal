@@ -6,7 +6,7 @@ namespace ApiCrud.Data
 {
 	public class AppDbContext : DbContext
 	{
-		DbSet<Estudante> Estudantes { get; set; }
+		public DbSet<Estudante> Estudantes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

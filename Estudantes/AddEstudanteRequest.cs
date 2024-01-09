@@ -1,11 +1,7 @@
 ﻿using System;
 namespace ApiCrud.Estudantes
 {
-	public class AddEstudanteRequest
-	{
-		public AddEstudanteRequest()
-		{
-		}
-	}
+	public record AddEstudanteRequest(string Nome);
+	
 }
 
