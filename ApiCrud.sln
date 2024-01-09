@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCrud", "ApiCrud.csproj", "{9B508D9C-23BB-4420-9A06-A1758A58001F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B508D9C-23BB-4420-9A06-A1758A58001F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B508D9C-23BB-4420-9A06-A1758A58001F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B508D9C-23BB-4420-9A06-A1758A58001F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B508D9C-23BB-4420-9A06-A1758A58001F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2636D91-FD5A-4B79-906B-02B7E040B9F2}
+	EndGlobalSection
+EndGlobal
