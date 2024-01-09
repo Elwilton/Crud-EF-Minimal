@@ -18,6 +18,11 @@ namespace ApiCrud.Estudantes
 		{
 			Nome = nome;
 		}
+
+		public void Desativar()
+		{
+			Ativo = false;
+		}
 	}
 }
 

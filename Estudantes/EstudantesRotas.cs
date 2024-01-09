@@ -53,6 +53,21 @@ namespace ApiCrud.Estudantes
 				await context.SaveChangesAsync();
 				return Results.Ok(new EstudanteDto(estudante.Id, estudante.Nome));
 			});
+
+			// Deletar Nome
+			app.MapDelete(pattern: "id", handler: async (Guid id, AppDbContext context) =>
+			{
+				var estudante = await context.Estudantes
+				.SingleOrDefaultAsync(estudante => estudante.Id == id);
+
+				if (estudante == null)
+					return Results.NotFound();
+
+				estudante.Desativar();
+
+				await context.SaveChangesAsync();
+				return Results.Ok();
+			});
 		}
 	}
 }
