@@ -5,6 +5,8 @@ namespace ApiCrud.Estudantes
 	{
 		public static void AddRotasEstudantes(this WebApplication app)
 		{
+			//Criando estudante
+		
 			app.MapGet(pattern: "estudantes",
 				handler: () => new Estudante(nome: "Cristian"));
 		}
