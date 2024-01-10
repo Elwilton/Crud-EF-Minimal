@@ -1,4 +1,5 @@
 using ApiCrud.Data;
+using ApiCrud.Disciplinas;
 using ApiCrud.Estudantes;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,5 +23,6 @@ app.UseHttpsRedirection();
 
 //Configurando as Rotas
 app.AddRotasEstudantes();
+app.AddRotasDisciplinas();
 app.Run();
 
